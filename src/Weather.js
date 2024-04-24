@@ -125,7 +125,18 @@ export default function Weather() {
         </div>
       </div>
 
-      <div className="footer-element">Coded by Rebecca Upton</div>
+      <div className="footer-element">
+        <p>
+          <a href="https://github.com/reb84/weather-app-react" target="_blank">
+            Open-source code
+          </a>{" "}
+          by Rebecca Upton. Hosted{" "}
+          <a href="https://weather-app-react-zeta-flame.vercel.app/" target="_blank">
+            on Vercel
+          </a>
+          .
+        </p>
+      </div>
     </div>
   );
 }
