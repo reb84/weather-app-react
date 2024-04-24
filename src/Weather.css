@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+
+body {
+  background-color: #494e60;
+  color: #d4d5d9;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #bf8240;
+}
+a:hover {
+  color: #d4d5d9;
+}
+
+.weather-container {
+  max-width: 640px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgb(97, 105, 119);
+  background: linear-gradient(180deg, rgba(97, 105, 119, 1) 0%, rgba(59, 65, 81, 1) 100%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header-search {
+  padding: 0px 0px;
+  margin-bottom: 30px;
+}
+.search-form-input {
+  background-color: #e4e4e1;
+  border: solid 1px #8698a0;
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 529px;
+}
+
+.search-form-button {
+  margin-left: 5px;
+  font-size: 12px;
+  background-color: #494e60;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.search-form-button:hover {
+  background-color: #d4d5d9;
+  color: #494e60;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+
+.footer-element {
+  text-align: center;
+  font-size: 9px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0px;
+  letter-spacing: 1px;
+}
+.current-main {
+  text-align: center;
+}
+
+.current-city {
+  font-size: 46px;
+  margin: 0px;
+  letter-spacing: 2px;
+  overflow-wrap: break-word;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.current-when {
+  margin: 10px auto;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-bottom: solid 1px #616977;
+  width: 50%;
+  padding-bottom: 20px;
+}
+
+.current-temp-container {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.weather-icon {
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
+}
+
+.current-temp-value {
+  font-size: 90px;
+  font-weight: 300;
+}
+
+.current-temp-unit {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.current-extra {
+  text-align: center;
+  border-bottom: solid 1px #616977;
+  padding-bottom: 20px;
+}
+
+.current-details strong {
+  color: #bf8240;
+}
+
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.weather-forecast-day {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #484e5f;
+  width: 100px;
+}
+
+.weather-forecast-day:hover {
+  transition: all 500ms ease;
+  background-color: #52596c;
+}
+
+.weather-forecast-date {
+  text-align: center;
+  line-height: 20px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.forecast-icon {
+  display: block;
+  margin: 0 auto;
+  width: 75px;
+  height: 75px;
+}
+
+.forecast-temps {
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.weather-temp-max {
+  padding: 0 5px;
+  font-weight: 600;
+  color: #bf8240;
+}
+.weather-temp-min {
+  padding: 0 5px;
+  font-size: 14px;
+  color: #bf8240;
+}
