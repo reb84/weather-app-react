@@ -1,0 +1,60 @@
+.forecast-weather-container {
+  margin: 10px auto;
+  width: 300px;
+}
+
+.weather-forecast-day {
+  background-color: #f1f1f1;
+  display: flex;
+  padding: 0px;
+  margin: 20px 0;
+  border-radius: 10px;
+  border-bottom: solid 1px #b6becb;
+}
+
+.forecast-icon {
+  display: block;
+  width: 60px;
+  height: 60px;
+}
+
+.weather-forecast-date {
+  flex: 50%;
+  text-align: center;
+  align-content: space-around;
+  letter-spacing: 1px;
+}
+
+.weather-forecast-temperature {
+  align-content: space-around;
+  text-align: center;
+  padding: 10px;
+  background-color: #b6becb;
+  border-radius: 0 10px 10px 0;
+  flex: 35%;
+  color: #ffffff;
+  font-size: 20px;
+  border-right: solid 1px #b6becb;
+}
+
+.forecast-temps-max {
+  font-size: 20px;
+  font-weight: 400;
+}
+.forecast-temps-min {
+  font-size: 16px;
+}
+
+.forecast-unit {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 660px) {
+  .forecast-weather-container {
+    width: 100%;
+  }
+
+  .weather-forecast-day {
+    margin: 10px 0;
+  }
+}
