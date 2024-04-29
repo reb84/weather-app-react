@@ -30,7 +30,8 @@
   letter-spacing: 2px;
   overflow-wrap: break-word;
   text-transform: uppercase;
-  margin: 20px 0;
+  margin: 20px 5px;
+  line-height: 1.1;
 }
 
 /* DESCRIPTION */
@@ -40,14 +41,23 @@
   font-size: 16px;
 }
 
-.current-details strong {
+.current-description strong {
   color: #375577;
   font-weight: 400;
 }
 
+.current-description ul {
+  margin: 0;
+  padding: 0;
+}
+
+.current-description li {
+  list-style: none;
+}
+
 .temp-switch {
   text-align: center;
-  padding: 10px;
+  padding: 15px;
 }
 
 .header-search-container {

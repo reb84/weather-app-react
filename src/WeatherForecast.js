@@ -8,7 +8,7 @@ export default function WeatherForecast() {
         <div className="icon-container">
           <img
             src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
-            class="forecast-icon"
+            className="forecast-icon"
           />
         </div>
         <div className="weather-forecast-date">Saturday</div>
@@ -22,7 +22,7 @@ export default function WeatherForecast() {
         <div className="icon-container">
           <img
             src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
-            class="forecast-icon"
+            className="forecast-icon"
           />
         </div>
         <div className="weather-forecast-date">Sunday</div>
@@ -36,7 +36,7 @@ export default function WeatherForecast() {
         <div className="icon-container">
           <img
             src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
-            class="forecast-icon"
+            className="forecast-icon"
           />
         </div>
         <div className="weather-forecast-date">Monday</div>
@@ -50,7 +50,7 @@ export default function WeatherForecast() {
         <div className="icon-container">
           <img
             src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
-            class="forecast-icon"
+            className="forecast-icon"
           />
         </div>
         <div className="weather-forecast-date">Tuesday</div>
@@ -64,7 +64,7 @@ export default function WeatherForecast() {
         <div className="icon-container">
           <img
             src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
-            class="forecast-icon"
+            className="forecast-icon"
           />
         </div>
         <div className="weather-forecast-date">Wednesday</div>

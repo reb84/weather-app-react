@@ -1,5 +1,5 @@
 .forecast-weather-container {
-  margin: 10px auto;
+  margin: 20px auto;
   width: 300px;
 }
 
@@ -7,7 +7,7 @@
   background-color: #f1f1f1;
   display: flex;
   padding: 0px;
-  margin: 20px 0;
+  margin: 10px 0;
   border-radius: 10px;
   border-bottom: solid 1px #b6becb;
 }
