@@ -5,7 +5,7 @@ import "./Main.css";
 export default function Main() {
   return (
     <div className="container">
-      <Weather />
+      <Weather defaultCity="London" />
       <div className="footer-container">
         Project coded by{" "}
         <a
