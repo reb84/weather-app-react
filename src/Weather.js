@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import CurrentDate from "./CurrentDate";
 import WeatherForecast from "./WeatherForecast";
 
 import "./Weather.css";
@@ -8,10 +9,10 @@ export default function Weather() {
   const [weatherData, setWeatherData] = useState({ ready: false });
 
   function handleResponse(response) {
-    console.log(response.data);
     setWeatherData({
       ready: true,
       temperature: response.data.main.temp,
+      date: new Date(response.data.dt * 1000),
       city: response.data.name,
       description: response.data.weather[0].description,
       iconUrl: "https://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png",
@@ -39,7 +40,9 @@ export default function Weather() {
               </div>
             </div>
 
-            <div className="current-date-container">FRIDAY - 12 APRIL - 09:56</div>
+            <div className="current-date-container">
+              <CurrentDate date={weatherData.date} />
+            </div>
 
             <div className="current-city">{weatherData.city}</div>
 
@@ -83,7 +86,7 @@ export default function Weather() {
     );
   } else {
     const apiKey = "a7fd89897e18b9862b380a75d7eee1ed";
-    let city = "Cambridge";
+    let city = "London";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
 
