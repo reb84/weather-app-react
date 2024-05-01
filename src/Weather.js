@@ -12,7 +12,7 @@ export default function Weather(props) {
   function handleResponse(response) {
     setWeatherData({
       ready: true,
-
+      icon: response.data.weather[0].icon,
       temperature: response.data.main.temp,
       date: new Date(response.data.dt * 1000),
       city: response.data.name,

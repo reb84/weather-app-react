@@ -1,16 +1,13 @@
 import React from "react";
 import CurrentDate from "./CurrentDate";
+import WeatherIcons from "./WeatherIcons";
 
 export default function CurrentWeather(props) {
   return (
     <div className="CurrentWeather">
       <div className="current-media-top">
-        <div id="current-weather-icon">
-          <img
-            src={props.data.iconUrl}
-            alt={props.data.description}
-            className="current-weather-icon"
-          />
+        <div className="current-weather-icon">
+          <WeatherIcons code={props.data.icon} size={78} />
         </div>
         <div className="current-temp-container">
           <span className="current-temp-value">{Math.round(props.data.temperature)}</span>
