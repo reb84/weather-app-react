@@ -1,6 +1,7 @@
 import React from "react";
 import CurrentDate from "./CurrentDate";
 import WeatherIcons from "./WeatherIcons";
+import CurrentTemp from "./CurrentTemp";
 
 export default function CurrentWeather(props) {
   return (
@@ -9,10 +10,7 @@ export default function CurrentWeather(props) {
         <div className="current-weather-icon">
           <WeatherIcons code={props.data.icon} size={78} />
         </div>
-        <div className="current-temp-container">
-          <span className="current-temp-value">{Math.round(props.data.temperature)}</span>
-          <span className="current-temp-unit">°C</span>
-        </div>
+        <CurrentTemp celsius={props.data.temperature} />
       </div>
 
       <div className="current-date-container">
@@ -31,9 +29,6 @@ export default function CurrentWeather(props) {
             Wind: <strong>{props.data.wind}km/h</strong>
           </li>
         </ul>
-      </div>
-      <div className="temp-switch">
-        <a href="/">C</a> / <a href="/">F</a>
       </div>
     </div>
   );
