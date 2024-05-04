@@ -1,6 +1,7 @@
 import React from "react";
 import "./WeatherForecast.css";
 import WeatherIcons from "./WeatherIcons";
+import axios from "axios";
 
 export default function WeatherForecast() {
   return (
