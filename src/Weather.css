@@ -83,7 +83,6 @@
 
 .header-search-container {
   margin: 0 auto 30px auto;
-  width: 350px;
 }
 
 .search-form {
@@ -135,7 +134,7 @@
   }
 
   .header-search-container {
-    margin: 10px auto;
+    margin: 20px auto 0 auto;
     width: 100%;
   }
 
