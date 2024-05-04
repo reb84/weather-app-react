@@ -13,18 +13,11 @@
   font-weight: 200;
 }
 
-.current-temps-max {
-  font-size: 14px;
-  font-weight: 400;
+.current-feels-like {
+  font-size: 16px;
   color: #375577;
   opacity: 0.8;
-  letter-spacing: 1px;
-}
-.current-temps-min {
-  font-size: 14px;
-  opacity: 0.6;
-  margin-left: 4px;
-  letter-spacing: 1px;
+  font-style: italic;
 }
 
 .current-date-container {
@@ -53,8 +46,6 @@
   font-weight: 400;
 }
 
-.current-temp-range ul,
-.current-temp-range li,
 .current-description ul,
 .current-description li {
   list-style: none;

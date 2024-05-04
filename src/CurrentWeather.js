@@ -12,11 +12,8 @@ export default function CurrentWeather(props) {
         </div>
         <CurrentTemp celsius={props.data.temperature} />
       </div>
-      <div className="current-temp-range">
-        <ul>
-          <li className="current-temps-max">Highs of {Math.round(props.data.max)} ºC</li>
-          <li className="current-temps-min">Lows of {Math.round(props.data.min)} ºC</li>
-        </ul>
+      <div className="current-feels-like">
+        <span className="feels-like">Feels more like {Math.round(props.data.feels)} ºC</span>
       </div>
       <div className="current-date-container">
         <CurrentDate date={props.data.date} />
