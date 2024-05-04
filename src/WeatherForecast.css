@@ -20,9 +20,11 @@
 
 .forecast-date {
   flex: 50%;
-  text-align: center;
+  text-align: left;
   align-content: space-around;
   letter-spacing: 1px;
+  padding-left: 30px;
+  font-size: 18px;
 }
 
 .forecast-temperature {
@@ -31,7 +33,7 @@
   padding: 10px;
   background-color: #b6becb;
   border-radius: 0 10px 10px 0;
-  flex: 35%;
+  flex: 30%;
   color: #ffffff;
   font-size: 20px;
   border-right: solid 1px #b6becb;
@@ -40,10 +42,12 @@
 .forecast-temps-max {
   font-size: 20px;
   font-weight: 400;
+  color: #375577;
+  opacity: 0.8;
 }
 .forecast-temps-min {
   font-size: 16px;
-  opacity: 0.6;
+  opacity: 0.8;
   margin-left: 4px;
 }
 
