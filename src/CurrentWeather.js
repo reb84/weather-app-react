@@ -8,7 +8,7 @@ export default function CurrentWeather(props) {
     <div className="CurrentWeather">
       <div className="current-media-top">
         <div className="current-weather-icon">
-          <WeatherIcons code={props.data.icon} size={78} />
+          <WeatherIcons code={props.data.icon} size={78} color="#ffffff" />
         </div>
         <CurrentTemp celsius={props.data.temperature} />
       </div>
