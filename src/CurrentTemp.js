@@ -26,7 +26,7 @@ export default function CurrentTemp(props) {
           <div className="link-temp">
             F
             <a href="/" onClick={showFahrenheit}>
-              <span class="temp-switch"></span>
+              <span className="temp-switch"></span>
             </a>
           </div>
         </span>
@@ -41,7 +41,7 @@ export default function CurrentTemp(props) {
           <div className="link-temp">
             C
             <a href="/" onClick={showCelsius}>
-              <span class="temp-switch"></span>
+              <span className="temp-switch"></span>
             </a>
           </div>
         </span>
