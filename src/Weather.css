@@ -13,7 +13,19 @@
   font-weight: 200;
 }
 
-/* DATE */
+.current-temps-max {
+  font-size: 14px;
+  font-weight: 400;
+  color: #375577;
+  opacity: 0.8;
+  letter-spacing: 1px;
+}
+.current-temps-min {
+  font-size: 14px;
+  opacity: 0.6;
+  margin-left: 4px;
+  letter-spacing: 1px;
+}
 
 .current-date-container {
   letter-spacing: 1px;
@@ -21,8 +33,6 @@
   font-size: 12px;
   margin: 20px 0;
 }
-
-/* CITY */
 
 .current-city {
   font-size: 30px;
@@ -32,8 +42,6 @@
   margin: 20px 5px;
   line-height: 1.1;
 }
-
-/* DESCRIPTION */
 
 .current-description {
   color: #375577;
@@ -45,13 +53,13 @@
   font-weight: 400;
 }
 
-.current-description ul {
-  margin: 0;
-  padding: 0;
-}
-
+.current-temp-range ul,
+.current-temp-range li,
+.current-description ul,
 .current-description li {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .header-search-container {
