@@ -13,33 +13,6 @@
   font-weight: 200;
 }
 
-.link-temp {
-  font-size: 16px;
-  background-color: #ffffff;
-  color: #395d7b;
-  font-weight: 400;
-  padding: 10px;
-  border-radius: 50%;
-  margin: 0 auto;
-  width: 10px;
-  height: 10px;
-  line-height: 0.5;
-  position: relative;
-  opacity: 0.5;
-}
-
-.link-temp:hover {
-  background-color: #89a1b6;
-  color: #ffffff;
-}
-.temp-switch {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
-
 /* DATE */
 
 .current-date-container {
